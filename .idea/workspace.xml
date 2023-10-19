@@ -4,15 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a378758c-8495-49c1-9ccc-8b82efd8b70c" name="Changes" comment="Se crearon todas las clases en el paquete model">
+    <list default="true" id="a378758c-8495-49c1-9ccc-8b82efd8b70c" name="Changes" comment="&#10;Añadimos un getter, un setter y el constructor para los atributos">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/control/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/control/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Orderitem.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Orderitem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Phone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Restaurant.java" beforeDir="false" afterPath="$PROJECT_DIR$/restaurant/src/org/ulpgc/is1/model/Restaurant.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExportToHTMLSettings">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/../RestaurantApp\exportToHTML" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -29,9 +36,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2Whlhn8bZVjKhrryDAhnOSiC4aQ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -44,11 +51,16 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/garci/IdeaProjects/RestaurantApp/restaurant",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "onboarding.tips.debug.path": "C:/Users/garci/IdeaProjects/RestaurantApp/restaurant/src/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -70,7 +82,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697192818154</updated>
-      <workItem from="1697192819140" duration="3213000" />
+      <workItem from="1697192819140" duration="4868000" />
+      <workItem from="1697374433391" duration="16000" />
+      <workItem from="1697374469174" duration="133000" />
+      <workItem from="1697374607831" duration="3000" />
+      <workItem from="1697374623856" duration="643000" />
+      <workItem from="1697375648373" duration="58000" />
+      <workItem from="1697401710268" duration="70000" />
+      <workItem from="1697447322454" duration="447000" />
+      <workItem from="1697528446965" duration="355000" />
+      <workItem from="1697529186195" duration="833000" />
+      <workItem from="1697532134018" duration="260000" />
+      <workItem from="1697664521391" duration="3127000" />
+      <workItem from="1697701505312" duration="110000" />
     </task>
     <task id="LOCAL-00001" summary="Se crearon todas las clases en el paquete model">
       <option name="closed" value="true" />
@@ -88,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1697195335954</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Se crearon todas las clases en el paquete model&#10;&#10;Añadimos un getter, un setter y el constructor para los atributos">
+      <option name="closed" value="true" />
+      <created>1697196534749</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697196534749</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +139,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Se crearon todas las clases en el paquete model" />
-    <option name="LAST_COMMIT_MESSAGE" value="Se crearon todas las clases en el paquete model" />
+    <MESSAGE value="&#10;&#10;Añadimos un getter, un setter y el constructor para los atributos" />
+    <MESSAGE value="&#10;Añadimos un getter, un setter y el constructor para los atributos" />
+    <option name="LAST_COMMIT_MESSAGE" value="&#10;Añadimos un getter, un setter y el constructor para los atributos" />
   </component>
 </project>

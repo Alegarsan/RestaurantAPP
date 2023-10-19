@@ -1,5 +1,8 @@
 package org.ulpgc.is1.model;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Restaurant {
 
     private String name;
@@ -25,4 +28,15 @@ public class Restaurant {
         this.name = name;
         this.phone = phone;
     }
+
+
+    public boolean addMenu(Menu menu) {
+        List<Menu> menus;
+        menus = new ArrayList<>();
+        if (!menus.contains(menu));
+        return menus.add(menu);
+    }
+
+
+
 }
