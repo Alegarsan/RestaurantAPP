@@ -1,28 +1,30 @@
 package org.ulpgc.is1.model;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class Menu {
 
-    private String menu;
+    private String name;
+    private MenuType menutype;
 
-    public String getMenu() {
+    private ArrayList<Dish>dishes;
+
+    public String getname() {
         return menu;
     }
 
-    public void setMenu(String menu) {
+    public void setname(String name) {
         this.menu = menu;
     }
 
-    public Menu(String menu) {
+    public name(String name) {
         this.menu = menu;
+        this.menu = menuType;
+        dishes = new ArrayList<Dish>();
     }
 
     public boolean addDish(Dish dish){
-        List<Dish> dishes = new ArrayList<>();
-        Dish Dish = null;
-        return dishes.add(null);
+        dishes.add(dish);
     }
 
 
